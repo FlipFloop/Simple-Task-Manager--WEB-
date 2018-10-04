@@ -1,0 +1,29 @@
+h1 {
+    text-align: center;
+    color: #A93648;
+    font-size: 4em;
+  }
+  h1:after {
+    content: "";
+    width: 35%;
+    display: block;
+    background: #A93648;
+    height: 10px;
+    margin: 30px auto;
+    line-height: 1.1;
+    border-radius: 50px;
+  }
+  h1, h2 {
+    font-family: "Lato", sans serif;
+  }
+  h1, h2, button, p {
+    text-align: center;
+  }
+  button {
+    display: block;
+    margin: 0 auto;
+    font-size: 1.5em;
+  }
+  ul ,li ,p ,button {
+    font-family: "Open Sans", sans serif;
+  }
